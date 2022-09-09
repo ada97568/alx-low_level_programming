@@ -8,7 +8,7 @@
  *
  *    * Return: 0 to terminate program
  *
- *     **/
+ */
 
 int main(void)
 
