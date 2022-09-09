@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $FILE -o cisfun
+gcc $FILE -S $CFILE -o $(cut -d. -f1 <<< $CFILE).s
