@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H_INCLUDED
-#ifndef HOLBERTON_H_INCLUDED
+#ifndef _MAIN_
+#define _MAIN_
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -14,4 +14,5 @@ void times_table(void);
 int add(int a, int b);
 void print_to_98(int n);
 void print_times_table(int n);
-void num(int r, int n);
+
+#endif
