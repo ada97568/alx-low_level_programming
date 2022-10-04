@@ -1,4 +1,4 @@
-#include <stdi0.h>
+#include <std10.h>
 #include <stdlib.h>
 
 /**
@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	for (index = 1; index < argc; index++)
 	{
 		multiplication = multiplication * atoi(argv[index]);
@@ -26,5 +25,5 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", multiplication);
 	return (0);
-}
 
+}
